@@ -1,0 +1,516 @@
+.avenir-book-16 {
+	font-family: 'Avenir LT Pro';
+	font-size: 16px;
+}
+
+.avenir-heavy-16 {
+	font-family: 'Avenir LT Pro 55 Roman';
+	font-size: 16px;
+}
+
+.avenir-heavy-14 {
+	font-family: 'Avenir LT Pro 55 Roman';
+	font-size: 14px;
+}
+
+.avenir-medium-16 {
+	font-family: 'Avenir LT Pro';
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.avenir-medium-18 {
+	font-family: 'Avenir LT Pro';
+	font-size: 18px;
+	font-weight: 500;
+	color: #222222;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: inherit;
+}
+
+img {
+	width: 100%;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.wrapper {
+	margin-left: 319px;
+	min-height: 100%;
+	overflow: hidden;
+
+	flex-direction: column;
+}
+
+.container {
+	max-width: 1231px;
+	margin: 0 auto;
+}
+
+.container-sub {
+	max-width: 289px;
+	width: 100%;
+}
+
+.content {
+	flex: 1 1 auto;
+}
+
+.header {}
+
+.header__container {
+	max-width: 1485px;
+	margin: 0 auto;
+}
+
+.header__row {
+	padding: 30px 0;
+	border-bottom: 1px solid rgba(17, 17, 17, .05);
+	justify-content: space-between;
+}
+.header__search-bar {
+	background-color: #F8F8F8;
+	border-radius: 12px;
+	max-width: 446px;
+	height: 56px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	flex: 1 1 auto;
+}
+.header__search-text {
+	font-family: 'Avenir LT Pro 55 Roman';
+	font-size: 14px;
+	color: rgba(17, 17, 17, .5);
+}
+.header__search-icon {
+	max-width: 24px;
+	cursor: pointer;
+}
+
+.header__menu {}
+
+.header__items {
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.header__items li {
+	margin-left: 30px;
+}
+
+.header__items_1 {
+	color: #FF2288;
+}
+
+.header__items_2 {
+	max-width: 24px;
+}
+
+.header__items_3 {
+	max-width: 24px;
+}
+
+.header__items_4 img {
+	border-radius: 100%;
+}
+
+.header__items_5 {
+	background-color: #FF2288;
+	color: white;
+	padding: 21px 35px;
+	border-radius: 12px;
+}
+
+
+/* ---------------------------- sidebar ---------------------------- */
+
+.sidebar {
+	max-height: 100%;
+	height: 100%;
+	width: 100%;
+	background-color: #222222;
+	position: absolute;
+	max-width: 319px;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	color: white;
+}
+
+.sidebar__container {
+	max-width: 259px;
+	margin: 0 auto;
+	flex-direction: column;
+}
+
+.sidebar__header {
+	padding: 42px 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sidebar__burger:hover {
+	border-radius: 4px;
+	background-color: #FF2288;
+}
+
+.menu-icon {
+	width: 26px;
+	height: 1px;
+	background-color: white;
+	margin: 4px 0;
+}
+
+.sidebar__logo {
+	max-width: 143px;
+}
+
+.sidebar__menu {
+	color: white;
+}
+
+.sidebar__list li {
+	display: flex;
+	align-items: center;
+	padding: 15px 30px;
+	margin: 15px 0;
+}
+
+.sidebar__list li:hover {
+	background-color: #FF2288;
+	border-radius: 12px;
+}
+
+.sidebar__list img {
+	max-width: 24px;
+}
+
+.sidebar__list a {
+	padding-left: 19px;
+}
+
+.sidebar__following {}
+
+.sidebar__following a:hover {
+	color: #FF2288;
+}
+
+
+.sidebar__following img {
+	max-width: 44px;
+	border-radius: 100%;
+}
+
+.sidebar__following_btn {
+	margin: 28px 0;
+	padding: 0 30px;
+}
+
+.sidebar__following_btn span {
+	font-family: 'Avenir LT Pro 55 Roman';
+	font-size: 12px;
+}
+
+.sidebar__following_users {
+
+}
+
+.sidebar__following_list {
+	padding: 0 30px;
+}
+
+.sidebar__following_list li {
+	align-items: center;
+	margin: 15px 0;
+}
+
+.sidebar__following_list a {
+	padding-left: 19px;
+}
+
+.sidebar__loadmore_btn {
+	padding: 0 30px;
+	margin: 24px 0;
+}
+
+/* ---------------------------- content ---------------------------- */
+
+.product-section {}
+
+.product-section__row {
+	flex-direction: column;
+}
+
+.product-section__filters {
+	max-height: 56px;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px 0;
+}
+
+.product-section__list li {
+	padding: 20px;
+	font-family: 'Avenir LT Pro';
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.product-section__list li:hover {
+	background-color: #F2F2F2;
+	border-radius: 12px;
+	font-family: 'Avenir LT Pro';
+	font-weight: 500;
+}
+
+.product-section__filters_btn {
+	min-width: fit-content;
+	border: 1px solid #D8D8D8;
+	border-radius: 12px;
+	justify-content: space-around;
+	align-items: center;
+	padding: 15px;
+	flex: 0 1 132px;
+}
+
+.product-section__filters_btn:hover	{
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+
+.product-section__filters_btn img {
+	max-width: 24px;
+}
+
+.product-section__products {
+	justify-content: space-between;
+}
+
+.product-section__product {
+	flex-direction: column;
+	padding-bottom: 30px;
+}
+
+.product-section__products img {
+	border-radius: 12px;
+	box-shadow: 0 0 8px 0 rgba(91, 94, 186, 0.2);
+	cursor: pointer;
+}
+
+.product-section__product img:hover {
+	box-shadow: 0 0 8px 0 rgba(91, 94, 186, 0.5);
+}
+
+.product-section__text {
+	display: block;
+	width: 300px;
+	height: 1.5em;
+	line-height: 1.5;
+	margin-top: 5px;
+	overflow: hidden;
+	margin-top: 16px;
+	cursor: pointer;
+}
+
+.product-section__text:hover {
+	color: #FF2288;
+}
+
+.product-section__lmbtn span {
+	background-color: #F2F2F2;
+	border-radius: 12px;
+	padding: 20px;
+	margin: 70px 0;
+	text-align: center;
+}
+
+.product-section__lmbtn {
+	justify-content: center;
+}
+
+.product-section__lmbtn span:hover {
+	background-color: #FF2288;
+	color: white;
+}
+
+/* --------------  section 2 top designers -------------- */
+
+.top-designers {
+	background-color: #FAFAFA;
+}
+
+.top-designers__row {
+	padding: 60px 0;
+}
+.top-designers__header {
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 60px;
+}
+
+.top-designers__title {
+	font-family: 'Avenir LT Pro 55 Roman';
+	font-size: 32px;
+	cursor: pointer;
+}
+.top-designers__viewall {
+	color: rgba(34, 34, 34, .3);
+	cursor: pointer;
+}
+.top-designers__column {}
+
+.top-designers__list {
+	justify-content: space-between;
+}
+
+.top-designers__list li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.top-designers__img img {
+	border-radius: 100%;
+	max-width: 132px;
+	cursor: pointer;
+}
+
+.top-designers__user {
+	font-family: 'Avenir LT Pro';
+	font-size: 16px;
+	font-weight: 500;
+	padding: 1em 0;
+	text-align: center;
+	flex: 1 1 auto;
+}
+
+.top-designers__username {
+	padding: .25em;
+}
+.top-designers__surname {
+	padding: .25em;
+}
+
+.top-designers__country {
+	font-family: 'Avenir LT Pro';
+	font-size: 12px;
+	color: rgba(34, 34, 34, .6);
+}
+
+.top-designers__followbtn {
+	padding: 10px 20px;
+	border: 1px solid #D8D8D8;
+	border-radius: 12px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Avenir LT Pro 55 Roman';
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.top-designers__followbtn:hover {
+	background-color: #F2F2F2;
+	border: none;
+}
+
+.button_off {}
+
+
+/* ---------------------------- table section page 2 ---------------------------- */
+
+table{
+	width: 100%;
+	margin: 70px 0;
+}
+
+th {
+	text-align: left;
+	padding: 30px;
+	font-family: 'Avenir LT Pro 55 Roman';
+	font-size: 18px;
+}
+
+td {
+	padding: 30px;
+	font-family: 'Avenir LT Pro 55 Roman';
+	font-size: 16px;
+	color: #AFAFAF;
+	border-top: 1px solid #E7E7E7;
+}
+
+tr {
+
+}
+
+tr:hover {
+	background-color: #F2F2F2;
+}
+
+
+
+/* ---------------------------- footer ---------------------------- */
+.footer {
+	margin: 0 auto;
+}
+
+.footer__row_1 {
+	padding: 70px 0;
+}
+
+.footer__columns {
+	flex: 0 1 auto;
+}
+
+.footer__title {
+	font-family: 'Avenir LT Pro 55 Roman';
+	font-size: 16px;
+	margin-bottom: 2em;
+}
+
+.footer__list {
+	font-family: 'Avenir LT Pro';
+	font-size: 16px;
+	line-height: 2em;
+}
+
+.footer__list a {
+	color: #222222;
+}
+
+.footer__row_2 {
+	border-top: 1px solid rgba(17, 17, 17, .05);
+	padding: 40px 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__icons {}
+
+.footer__list {
+	align-items: center;
+}
+
+.footer__list li{
+	padding-right: 20px;
+}
+
+.footer__authorship {
+	font-family: 'Avenir LT Pro';
+	font-size: 16px;
+}
+
+.footer__author {
+	font-weight: bold;
+}
