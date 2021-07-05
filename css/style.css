@@ -341,6 +341,7 @@ img {
 }
 
 .product-section__lmbtn span:hover {
+	transition: .5s;
 	background-color: #FF2288;
 	color: white;
 }
@@ -430,7 +431,7 @@ img {
 
 /* ---------------------------- table section page 2 ---------------------------- */
 
-table{
+table {
 	width: 100%;
 	margin: 70px 0;
 }
@@ -450,19 +451,19 @@ td {
 	border-top: 1px solid #E7E7E7;
 }
 
-tr {
-
-}
-
 tr:hover {
 	background-color: #F2F2F2;
 }
-
-
+ 
+td:hover {
+	color: #FF2288;
+}
 
 /* ---------------------------- footer ---------------------------- */
 .footer {
-	margin: 0 auto;
+	margin-left: 319px;
+	min-height: 100%;
+	overflow: hidden;
 }
 
 .footer__row_1 {
@@ -496,8 +497,6 @@ tr:hover {
 	align-items: center;
 }
 
-.footer__icons {}
-
 .footer__list {
 	align-items: center;
 }
@@ -513,4 +512,97 @@ tr:hover {
 
 .footer__author {
 	font-weight: bold;
+}
+
+/* ------------------- for screens 1600px wide and less -------------------*/
+
+@media screen and (max-width: 1600px) {
+
+	.wrapper {
+		margin-left: 300px;
+	}
+
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	.header__container {
+		max-width: 1240px;
+	}
+
+	.sidebar {
+		max-width: 300px;
+	}
+
+	.sidebar__container {
+		max-width: 230px;
+	}
+}
+
+/* ------------------- for screens 1600px wide and less -------------------*/
+
+@media screen and (max-width: 1366px) {
+
+	.wrapper {
+		margin-left: 300px;
+	}
+
+	.container {
+		max-width: 768px;
+		margin: 0 auto;
+	}
+
+	.container-sub {
+		max-width: 350px;
+		width: 100%;
+	}
+
+	.header__container {
+		max-width: 1024px;
+	}
+
+	.sidebar {
+		max-width: 275px;
+	}
+
+	.sidebar__container {
+		max-width: 200px;
+	}
+
+	.hide-item {
+		display: none;
+	}
+}
+
+/* ------------------- for screens 480px wide and less -------------------*/
+
+@media screen and (max-width: 480px) {
+
+	.wrapper {
+		margin: 0;
+	}
+
+	.container {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.container-sub {
+		max-width: 400px;
+		width: 100%;
+	}
+
+	.header__container {
+		max-width: 417px;
+	}
+
+	aside {
+		display: none;
+	}
+
+	.hide-item {
+		display: none;
+	}
+
 }
